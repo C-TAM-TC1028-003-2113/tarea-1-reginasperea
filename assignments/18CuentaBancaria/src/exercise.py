@@ -5,7 +5,7 @@ def main():
     egresos = float(input("Dame los egresos: "))
     cheques = int(input("Dame el número de cheques: "))
     final = (saldo1 + ingresos - egresos - (cheques*13)) * 0.925
-    print("El saldo final de la cuenta es", final)
+    print("El saldo final de la cuenta es:", final)
 
 
 if __name__ == '__main__':
